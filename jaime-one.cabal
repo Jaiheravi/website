@@ -1,0 +1,12 @@
+cabal-version:      3.14
+name:               jaime-one
+version:            0.1.0.0
+build-type:         Simple
+common warnings
+    ghc-options: -Wall
+executable jaime-one
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.21.0.0
+    hs-source-dirs:   src
+    default-language: GHC2024
