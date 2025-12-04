@@ -16,7 +16,7 @@ do
 <$ -}
 
 testContent :: String
-testContent = "Hello!"
+testContent = "Hello world!"
 
 html :: String -> String
 html content = htmlOpen <> content <> htmlEnd
